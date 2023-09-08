@@ -1,7 +1,6 @@
 pipeline {
   agent {
-  stages {
-    stage('Checkout') {
+   stage('Checkout') {
       steps {
         sh 'echo passed'
         //git branch: 'main', https://github.com/menakanataraj/Jenkins-Zero-To-Hero.git'
