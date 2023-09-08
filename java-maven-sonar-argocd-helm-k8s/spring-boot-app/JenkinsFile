@@ -18,5 +18,4 @@ stage('Static Code Analysis') {
         SONAR_URL = "http://3.80.143.249:9000/"
       }
     }
- }
 }
